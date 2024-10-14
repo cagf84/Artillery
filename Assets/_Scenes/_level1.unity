@@ -1637,6 +1637,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &893772315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893772316}
+  - component: {fileID: 893772317}
+  m_Layer: 0
+  m_Name: AdministradorJuego
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &893772316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893772315}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.599971, y: -14.847374, z: 0.022749286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &893772317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893772315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d47b0aca7e472b144b3c74315c6e5c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1051749206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,21 +2999,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.924
       objectReference: {fileID: 0}
-    - target: {fileID: 1535504012504627115, guid: aac4a17329fea0e4bb0a4aa931664984,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.91768974
-      objectReference: {fileID: 0}
-    - target: {fileID: 1535504012504627115, guid: aac4a17329fea0e4bb0a4aa931664984,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.3972978
-      objectReference: {fileID: 0}
-    - target: {fileID: 1535504012504627115, guid: aac4a17329fea0e4bb0a4aa931664984,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -46.819
-      objectReference: {fileID: 0}
     - target: {fileID: 4545594404557983715, guid: aac4a17329fea0e4bb0a4aa931664984,
         type: 3}
       propertyPath: m_Name
@@ -3117,3 +3146,4 @@ SceneRoots:
   - {fileID: 242534907}
   - {fileID: 2115497941}
   - {fileID: 1278904370}
+  - {fileID: 893772316}
