@@ -169,7 +169,7 @@ public partial class @CanonControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""negative"",
                     ""id"": ""818405fb-c699-4de6-98b2-b8c72ad9a421"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",
@@ -180,7 +180,7 @@ public partial class @CanonControls: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""positive"",
                     ""id"": ""65985645-9f6a-4a78-9010-f6e0d60c562d"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Generic"",

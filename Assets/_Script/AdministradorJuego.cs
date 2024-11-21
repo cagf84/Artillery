@@ -43,11 +43,12 @@ public class AdministradorJuego : MonoBehaviour
     public void GanarJuego()
     {
         CanvasGanar.SetActive(true);
+        
     }
 
     public void PerderJuego()
     {
-        CanvasPerder.SetActive(true);
+        CanvasPerder.SetActive(true);        
     }
 
     void Start()
